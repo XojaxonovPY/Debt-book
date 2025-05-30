@@ -41,9 +41,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-AUTH_USER_MODEL = 'apps.User'
-LOGIN_REDIRECT_URL='login'
-LOGIN_URL='login'
+
 ROOT_URLCONF = 'DjangoTodo.urls'
 
 TEMPLATES = [
@@ -124,11 +122,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'xojaxonovrixsixoja@gmail.com'
-EMAIL_HOST_PASSWORD = 'xkiy gdps nhni kmrz'
-EMAIL_USE_SSL = False
 
