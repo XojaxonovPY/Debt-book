@@ -1,0 +1,7 @@
+.venv
+.idea
+todo
+tmp.py
+apps/migrations/*
+apps/static
+templates/project/todo.html
