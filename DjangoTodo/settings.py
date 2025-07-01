@@ -30,7 +30,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'apps',
-    'todo'
 ]
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
